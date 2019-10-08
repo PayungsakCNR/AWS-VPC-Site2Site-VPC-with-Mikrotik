@@ -39,10 +39,10 @@ add disabled=yes dst-address=<MY_OFFICE_PRIVATE_NETWORK> peer=peer1-aws proposal
     ipsec-vpn-08debffa46f808f6e-0 src-address=<MY_AWS_VPC_PRIVATE_NETWORK> tunnel=yes
 
 add disabled=yes dst-address=<Point-to-Point-AWS-IP-Tunnel-1>/32 peer=peer1-aws proposal=\
-    ipsec-vpn-08debffa46f808f6e-0 src-address=<Point-to-Point-Office-IP>/32 tunnel=yes
+    ipsec-vpn-08debffa46f808f6e-0 src-address=<Point-to-Point-Office-IP-Tunnel-1>/32 tunnel=yes
 
 add disabled=yes dst-address=<Point-to-Point-AWS-IP-tunnel-2>/32 peer=peer2-aws proposal=\
-    ipsec-vpn-08debffa46f808f6e-0 src-address=<Point-to-Point-Office-IP>/32 tunnel=yes
+    ipsec-vpn-08debffa46f808f6e-0 src-address=<Point-to-Point-Office-IP-Tunnel-2>/32 tunnel=yes
 
 add disabled=yes dst-address=<MY_OFFICE_PRIVATE_NETWORK> peer=peer2-aws proposal=\
     ipsec-vpn-08debffa46f808f6e-1 src-address=<MY_AWS_VPC_PRIVATE_NETWORK> tunnel=yes
